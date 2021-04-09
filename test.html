@@ -1,0 +1,1177 @@
+<!-- Modal to popup-->
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <!--bigger modal with <div class="modal-dialog modal-lg">-->
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <!--<h5 class="modal-title">Modal title</h5>-->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+            </div>
+            <div class="modal-body">
+                <img class="img-fluid" src="assets/ui_content/video_live2.png" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--End Modal-->
+<!--Style of the popup-->
+<style>
+    .modal {
+        text-align: center;
+        padding: 0 !important;
+    }
+    
+    .modal:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        margin-right: -4px;
+    }
+    
+    .modal-dialog {
+        display: inline-block;
+        text-align: left;
+        vertical-align: middle;
+    }
+</style>
+
+<!--OR THIS-->
+<!--First -->
+<a class="btn btn-secondary" href="#" data-toggle="modal" data-target=".pop-up-1">Explore Gallery</a>
+<!--Then-->
+<!-- The Modal html-->
+<div class="modal fade pop-up-1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            </div>
+            <div class="modal-body">
+                <img src="assets/ui_content/video_live2.png" class="img-responsive img-rounded center-block" alt="">
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--End Modal-->
+
+<!--TEST PAGE -->
+<!--================ Works Galley Area =================-->
+<section class="works_area">
+    <div class="container">
+        <div class="work_page_inner">
+            <div class="row work_item">
+                <div class="col-lg-6">
+                    <div class="w_page_img">
+                        <img id="myImg" class="img-fluid" src="assets/ui_content/Videochat2d.png" alt="design to phone">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="w_page_text">
+                        <div class="w_page_text_inner left">
+                            <h4>Spreading <br />Peace to world</h4>
+                            <p>If you are looking at blank cassette on the web you may be very confused at the difference in price you may see some.</p>
+                            <!--<a class="btn btn-secondary" href="#" data-toggle="modal" data-target=".pop-up-1">Explore Gallery</a>-->
+                            <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Popup image</button>-->
+                            <button id="modalButton" class="button">Open Modal</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row work_item">
+                <div class="col-lg-6">
+                    <div class="w_page_text">
+                        <div class="w_page_text_inner right">
+                            <h4>Spreading <br />Peace to world</h4>
+                            <p>If you are looking at blank cassette on the web you may be very confused at the difference in price you may see some.</p>
+                            <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#myModal">Explore
+Gallery</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="w_page_img">
+                        <img class="img-fluid" src="assets/ui_content/video_live2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row work_item">
+                <div class="col-lg-6">
+                    <div class="w_page_img">
+                        <img class="img-fluid" src="assets/ui_content/video_live2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="w_page_text">
+                        <div class="w_page_text_inner left">
+                            <h4>Spreading <br />Peace to world</h4>
+                            <p>If you are looking at blank cassette on the web you may be very confused at the difference in price you may see some.</p>
+                            <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#myModal">Explore
+Gallery</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row work_item">
+                <div class="col-lg-6">
+                    <div class="w_page_text">
+                        <div class="w_page_text_inner right">
+                            <h4>Spreading <br />Peace to world</h4>
+                            <p>If you are looking at blank cassette on the web you may be very confused at the difference in price you may see some.</p>
+                            <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#myModal">Explore
+Gallery</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="w_page_img">
+                        <img class="img-fluid" src="assets/ui_content/video_live2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================ End  Works Galley Area =================-->
+<!--Images Modals-->
+<!-- The Modal -->
+<div id="modal" class="modal">
+    <span id="modal-close" class="modal-close">&times;</span>
+    <img id="modal-content" class="modal-content">
+    <div id="modal-caption" class="modal-caption"></div>
+</div>
+<!--End image modals-->
+
+<!--- End Works Gallery Area css ============================================================================================ */ /*modal*/ /* .modal { text-align: center; padding: 0 !important; } .modal:before { content: ''; display: inline-block; height:
+100%; vertical-align: middle; margin-right: -4px; } .modal-dialog { display: inline-block; text-align: left; vertical-align: middle; } */ /* The Modal (background) */ #myImg { border-radius: 5px; cursor: pointer; transition: 0.3s; } #myImg:hover { opacity:
+0.7; } .modal { display: none; position: fixed; z-index: 1; padding-top: 100px; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0.75); } .modal-content { margin: auto; display:
+block; width: 80%; max-width: 700px; } .close { position: absolute; top: 15px; right: 35px; color: #f1f1f1; font-size: 40px; font-weight: bold; transition: 0.3s; } .close:hover, .close:focus { color: #bbb; text-decoration: none; cursor: pointer; } .button
+{ border: none; display: inline-block; padding: 8px 16px; color: #fff; background-color: #4db6ac; text-align: center; cursor: pointer; font-weight: bold; } @media only screen and (max-width: 700px) { .modal-content { width: 100%; } }->
+<!-The Modal -->
+<div id="myModal" class="modal">
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+</div>
+<!--End Modal-->
+<!--Script to popup images modals-->
+<script>
+    var modal = document.getElementById('myModal');
+
+    var img = document.getElementById('myImg');
+    var modalImg = document.getElementById("img01");
+    var modalButton = document.getElementById("modalButton");
+
+    img.onclick = function() {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+    }
+
+    modalButton.onclick = function() {
+        modal.style.display = "block";
+        modalImg.src = "assets/ui_content/Videochat2d.png";
+    }
+
+    var span = document.getElementsByClassName("close")[0];
+
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    modal.onclick = function(e) {
+        if (e.target.id !== 'img01') {
+            modal.style.display = 'none';
+        }
+    };
+</script>
+<!--End popup image script-->
+
+<!--test horizontal image cards-->
+<section>
+    <div class="container py-3">
+        <div class="card">
+            <div class="row ">
+                <div class="col-md-4">
+                    <img src="assets/ui_content/Videochat1c.png" class="img-fluid" alt="design to phone">
+                </div>
+                <div class="col-md-8 px-3">
+                    <div class="card-block px-3">
+                        <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                        <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!--end test horizontal image cards-->
+
+<!--cards -->
+<div class="container">
+    <div class="card-columns">
+        <div class="card bg-dark text-white" style="width:400px">
+            <img class="card-img-top" src="assets/ui_content/Videochat2d.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <!--<a href="#" class="btn btn-primary stretched-link">Go somewhere</a> clickable image -->
+            </div>
+        </div>
+
+
+        <div class="card bg-light text-dark" style="width:400px">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <img class="card-img-top" src="assets/ui_content/Videochat2d.png" alt="Card image cap">
+        </div>
+    </div>
+</div>
+
+<!--SECTION What I do-->
+<section id="services" class="services section-padding">
+    <h2 class="section-title wow flipInX">What I do</h2>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6 col-lg-3 col-xs-12">
+                <div class="services-item">
+                    <div class="icon">
+                        <i class="icon-grid"></i>
+                    </div>
+                    <div class="services-content">
+                        <h3><a href="assets/ui_content/Videochat2d.png">Front-end Development</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 col-xs-12">
+                <div class="services-item">
+                    <div class="icon">
+                        <i class="icon-layers"></i>
+                    </div>
+                    <div class="services-content">
+                        <h3><a href="#">Graphic Design</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 col-xs-12">
+                <div class="services-item">
+                    <div class="icon">
+                        <i class="icon-briefcase"></i>
+                    </div>
+                    <div class="services-content">
+                        <h3><a href="#">Business Branding</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 col-xs-12">
+                <div class="services-item">
+                    <div class="icon">
+                        <i class="icon-bubbles"></i>
+                    </div>
+                    <div class="services-content">
+                        <h3><a href="#">Consultancy</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--END SECTION What I do-->
+
+<!--test image-->
+<div class="section">
+    <div class="container-principal">
+        <div class="row text-center">
+            <h2 class="bold">Works</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content">
+                    <img src="assets/ui_content/DesktopwpV3.jpg" alt="Ineat" style="width:100%">
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum..</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--test end-->
+    <!--test horizontal image cards-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">It's a broader card with text below as a natural lead-in to extra content. This content is a little longer.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card bg-light text-dark">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">It's a broader card with text below as a natural lead-in to extra content. This content is a little longer.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        <img class="card-img-top" src="assets/ui_content/Videochat2d.png" alt="Card image cap">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card bg-dark text-white">
+                        <img class="card-img-top" src="assets/ui_content/Videochat2d.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">It's a broader card with text below as a natural lead-in to extra content. This content is a little longer.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">It's a broader card with text below as a natural lead-in to extra content. This content is a little longer.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--end test horizontal image cards-->
+
+    <!--MODAL-->
+    <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+                </div>
+                <div class="modal-body mb-0 p-0">
+                    <img src="assets/ui_content/Videochat2d.png" alt="" style="width:100%">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-dark btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END MODAL-->
+    <!--CSS MODAL-->
+    <style>
+        .modal,
+        body.modal-open {
+            padding-right: 0 !important
+        }
+        
+        body.modal-open {
+            overflow: auto
+        }
+        
+        body.scrollable {
+            overflow-y: auto
+        }
+        
+        .modal-footer {
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+        .modal-footer .btn {
+            position: absolute;
+            right: 10px;
+        }
+    </style>
+    <!--END CSS MODAL-->
+    <!--Script to popup images modals-->
+    <script>
+        $('a a').remove();
+
+        document.documentElement.setAttribute("lang", "en");
+        document.documentElement.removeAttribute("class");
+
+        axe.run(function(err, results) {
+            console.log(results.violations);
+        });
+    </script>
+    <!--End popup image script-->
+
+    <!--First container with popup etc-->
+    <!--================ Works Galley Area =================-->
+    <section class="works_area">
+        <div class="container">
+            <!-- ====================== First card ======================== -->
+            <div class="work_page_inner">
+                <div class="row work_item">
+                    <div class="col-lg-6">
+                        <div class="w_page_img">
+                            <img id="myImg" class="img-fluid" src="assets/ui_content/Videochat2d.png" alt="design to phone">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="w_page_text">
+                            <div class="w_page_text_inner left">
+                                <h4>Design <br />& développement</h4>
+                                <p>Création du design et développement front-end en REACT, de deux pages pour un projet de vidéos live pour les Galeries Lafayette Champs-Elysées. Pour la conception et la création des interfaces j'ai utilisé Sketch.</p>
+                                <!--<a class="btn btn-secondary" href="#" data-toggle="modal" data-target=".pop-up-1">Explore Gallery</a>-->
+                                <a type="button" class="btn btn-dark" data-toggle="modal" data-target="#modalIMG" href="#">VIEW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- =============== MODAL =============== -->
+                <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG" role="dialog" tabindex="-1">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+                            </div>
+                            <div class="modal-body mb-0 p-0">
+                                <!-- <img src="assets/ui_content/Videochat2d.png" alt="" style="width:100%"> -->
+                                <!-- ============= modal carousel ============ -->
+                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block h-100" src="assets/ui_content/Videochat2c.png" alt="Third slide" style="margin: 0 auto;">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block h-100" src="assets/ui_content/Videochat1c.png" alt="Fourth slide" style="margin: 0 auto;">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="assets/ui_content/Videochat1d.png" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="assets/ui_content/Videochat2d.png" alt="First slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                                <!-- =========== end modal carousel =============== -->
+                            </div>
+                            <div class="modal-footer">
+                                <!-- <button class="btn btn-dark btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button> -->
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============== END MODAL =============== -->
+                <!-- ====================== END First card ======================== -->
+                <!-- ================ Second Card =======================-->
+                <div class="row work_item">
+                    <div class="col-lg-6">
+                        <div class="w_page_text">
+                            <div class="w_page_text_inner right">
+                                <h4>Design <br />Peace to world</h4>
+                                <p>If you are looking at blank cassette on the web you may be very confused at the difference in price you may see some.</p>
+                                <a type="button" class="btn btn-dark" data-toggle="modal" data-target="#modalIMG2" href="#">VIEW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="w_page_img">
+                            <img id="myImg2" class="img-fluid" src="assets/ui_content/MaquetteMonsieurStoreV4a.jpg" alt="Mock-up 1">
+                        </div>
+                    </div>
+                </div>
+                <!-- =============== MODAL =============== -->
+                <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG2" role="dialog" tabindex="-1">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+                            </div>
+                            <div class="modal-body mb-0 p-0">
+                                <!-- <img src="assets/ui_content/Videochat2d.png" alt="" style="width:100%"> -->
+                                <!-- ============= modal carousel ============ -->
+                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="assets/ui_content/MaquetteMonsieurStoreV4.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="assets/ui_content/MaquetteMonsieurStoreV3.jpg" alt="Second slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                                <!-- =========== end modal carousel =============== -->
+                            </div>
+                            <div class="modal-footer">
+                                <!-- <button class="btn btn-dark btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button> -->
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============== END MODAL =============== -->
+                <!--End First container with popup etc-->
+
+
+
+                <!-- ===================== Third Card =============== -->
+                <div class="row work_item">
+                    <div class="col-lg-6">
+                        <div class="w_page_img">
+                            <img class="img-fluid" src="assets/ui_content/video_live2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="w_page_text">
+                            <div class="w_page_text_inner left">
+                                <h4>Spreading <br />Peace to world</h4>
+                                <p>If you are looking at blank cassette on the web you may be very confused at the difference in price you may see some.</p>
+                                <a class="btn btn-dark" href="#" data-toggle="modal" data-target="#myModal3">Explore
+Gallery</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ===================== END Third Card =============== -->
+
+                <!--ADP AOP CARD-->
+                <!-- ===================== Third Card =============== -->
+                <div class="row work_item">
+                    <div class="col-lg-6">
+                        <div class="w_page_img">
+                            <img id="myImg3" class="img-fluid" src="assets/ui_content/DashboardVF1.jpg" alt="Mock-up ADP-AOP">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="w_page_text">
+                            <div class="w_page_text_inner left">
+                                <h4>Spreading <br />Peace to world</h4>
+                                <p>If you are looking at blank cassette on the web you may be very confused at the difference in price you may see some.</p>
+                                <a type="button" class="btn btn-dark" data-toggle="modal" data-target="#modalIMG3" href="#">VIEW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- =============== MODAL =============== -->
+                <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG3" role="dialog" tabindex="-1">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+                            </div>
+                            <div class="modal-body mb-0 p-0">
+                                <!-- <img src="assets/ui_content/Videochat2d.png" alt="" style="width:100%"> -->
+                                <!-- ============= modal carousel ============ -->
+                                <div id="carouselControls3" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="assets/ui_content/DashboardVF.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="assets/ui_content/Dashboard_clic-menu2VF.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="assets/ui_content/Detail_interfacesVF.jpg" alt="Third slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="assets/ui_content/Detail_interfacespopupVF.jpg" alt="Fourth slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="assets/ui_content/Erreurs_popup1VF.jpg" alt="Fifth slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="assets/ui_content/Erreurs_popup2VF.jpg" alt="Sixth slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselControls3" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselControls3" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                                <!-- =========== end modal carousel =============== -->
+                            </div>
+                            <div class="modal-footer">
+                                <!-- <button class="btn btn-dark btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button> -->
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============== END MODAL =============== -->
+                <!-- ===================== END Third Card =============== -->
+                <!-- to begining test image-->
+                <div class="section">
+                    <div class="container-principal">
+                        <div class="row text-center">
+                            <h2 class="bold">Works</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="content">
+                                    <img src="assets/ui_content/DesktopwpV3.jpg" alt="Ineat" style="width:100%">
+                                    <h3 style="color:#ffffff">My Work</h3>
+                                    <p style="color:#ffffff">Lorem ipsum..</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end to begining test image-->
+
+                    <!-- ===================== Fourth Card =============== -->
+                    <div class="row work_item">
+                        <div class="col-lg-6">
+                            <div class="w_page_text">
+                                <div class="w_page_text_inner right">
+                                    <h4>Design <br />& développement</h4>
+                                    <p>Création du design et développement front-end en REACT, de deux pages pour un projet de vidéos live pour les Galeries Lafayette Champs-Elysées. Pour la conception et la création des interfaces j'ai utilisé Sketch.</p>
+                                    <a type="button" class="btn btn-dark" href="#" data-toggle="modal" data-target="#modalIMG4">VIEW</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="w_page_img" id="last_img">
+                                <img id="myImg4" class="img-fluid" src="assets/ui_content/Desktopwp_mobile1.jpg" alt="design to phone">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- =============== MODAL =============== -->
+                    <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG4" role="dialog" tabindex="-1">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+                                </div>
+                                <div class="modal-body mb-0 p-0">
+                                    <!-- <img src="assets/ui_content/Videochat2d.png" alt="" style="width:100%"> -->
+                                    <!-- ============= modal carousel ============ -->
+                                    <div id="carouselControls4" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="d-block h-100" src="assets/ui_content/Videochat2c.png" alt="Third slide" style="margin: 0 auto;">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block h-100" src="assets/ui_content/Videochat1c.png" alt="Fourth slide" style="margin: 0 auto;">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="assets/ui_content/Videochat1d.png" alt="Second slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="assets/ui_content/Videochat2d.png" alt="First slide">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselControls4" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselControls4" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                    <!-- =========== end modal carousel =============== -->
+                                </div>
+                                <div class="modal-footer">
+                                    <!-- <button class="btn btn-dark btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button> -->
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============== END MODAL =============== -->
+                    <!-- ===================== END FourthCard =============== -->
+                    <!--add to video-->
+                    <!--video-->
+                    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+                    <video class="embed-responsive" src="assets/videos/projet_adp_aop6.mp4" controls poster="assets/ui_content/DashboardVF1.jpg" width="800"></video>
+
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="assets/videos/projet_adp_aop6.mp4" allowfullscreen></iframe>
+                    </div>
+                    <!--video-->
+                    <video controls width="800">
+<source src="assets/videos/projet_adp_aop6.webm" type="video/webm">
+<source src="assets/videos/projet_adp_aop6.mp4" type="video/mp4">
+<p>Sorry, your browser doesn't support embedded videos.</p>
+</video>
+                    <!--end video ok -->
+                    <div class="row">
+                        <div class="col-sm-offset-12 col-sm-12 col-xs-12 embed-responsive embed-responsive-16by9">
+                            <video controls poster="assets/ui_content/DashboardVF1.jpg" class="embed-responsive-item">
+<source src="assets/videos/projet_adp_aop6.webm" type="video/webm">
+<source src="assets/videos/projet_adp_aop6.mp4" type="video/mp4">
+</video>
+                        </div>
+                    </div>
+                    <style>
+                        @media screen and (max-width: 768px) {
+                            video {
+                                width: 500px;
+                                height: 300px;
+                            }
+                        }
+                        
+                        @media (max-width: 576px) {
+                            video {
+                                width: 300px;
+                                height: 200px;
+                            }
+                        }
+                    </style>
+
+                    <!--video-->
+                    <div class="row">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video controls preload class="embed-responsive-item">
+<source src="assets/videos/projet_adp_aop6.webm" type="video/webm">
+<source src="assets/videos/projet_adp_aop6.mp4" type="video/mp4">
+<source src="assets/videos/projet_adp_aop6.ogv" type="video/ogg">
+</video>
+                        </div>
+                    </div>
+                    <style>
+                        video {
+                            width: 100% !important;
+                            height: auto !important;
+                        }
+                    </style>
+
+                    <!-- ================ others.html page ================= -->
+
+                </div>
+
+                <div class="row text-center" style="margin-bottom:128px">
+                    <div class="third">
+                        <img src="assets/crea_marlene/photo_pi4.jpg">
+                        <img src="assets/crea_marlene/photo_pi02.jpg">
+                        <img src="assets/crea_marlene/photo_pi9.jpg">
+                        <img src="assets/crea_marlene/photo_pi6.jpg">
+                        <img src="assets/crea_marlene/photo_pi7.jpg">
+                        <img src="assets/crea_marlene/photo_pi10.jpg">
+                    </div>
+                    <div class="third">
+                        <img src="assets/crea_marlene/photo_pi1.jpg">
+                        <img src="assets/crea_marlene/photo_pi3.jpg">
+                        <img src="assets/crea_marlene/photo_pi8.jpg">
+                        <img src="assets/crea_marlene/photo_pi4.jpg">
+                        <img src="assets/crea_marlene/photo_pi4.jpg">
+                        <img src="assets/crea_marlene/photo_pi4.jpg">
+                    </div>
+                    <div class="third">
+                        <img src="assets/crea_marlene/photo_pi4.jpg">
+                        <img src="assets/crea_marlene/photo_pi4.jpg">
+                        <img src="assets/crea_marlene/photo_pi4.jpg">
+                        <img src="assets/crea_marlene/photo_pi4.jpg">
+                        <img src="assets/crea_marlene/photo_pi4.jpg">
+                        <img src="assets/crea_marlene/photo_pi4.jpg">
+                    </div>
+                </div>
+                <!--overlay-->
+                <div class="col-md-3">
+                    <div class="overlay-image">
+                        <a href="assets/crea_marlene/safari_photo2.jpg">
+                            <img src="assets/crea_marlene/safari_photo2.jpg" class="img-fluid" alt="Photo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="overlay-image">
+                        <a href="assets/crea_marlene/street_photo2a.jpg">
+                            <img src="assets/crea_marlene/street_photo2a.jpg" class="img-fluid" alt="Photo">
+                        </a>
+                    </div>
+                </div>
+
+                <style>
+                    .overlay-image {
+                        position: relative;
+                        width: 100%;
+                    }
+                    /* Image originale */
+                    
+                    .overlay-image .image {
+                        display: block;
+                        width: 100%;
+                        height: auto;
+                    }
+                    /* Apparition overlay sur passage souris */
+                    
+                    .overlay-image:hover img {
+                        opacity: 0.6;
+                    }
+                </style>
+                <!-- ================ alignement photo et clic ====================-->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3">
+
+                            <a href="#" data-toggle="modal" data-target="#myModal">
+                                <img src="assets/crea_marlene/safari_photo2.jpg" class="img-fluid" alt="Photo">
+                            </a>
+                            <div id="myModal" class="modal fade animated tada" tabindex="-1" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <img src="assets/crea_marlene/safari_photo2.jpg" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="col-md-3">
+                            <a href="#" data-toggle="modal" data-target="#myModal1">
+                                <img src="assets/crea_marlene/street_photo2a.jpg" class="img-fluid" alt="Photo">
+                            </a>
+                            <div id="myModal1" class="modal fade" tabindex="-1" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <img src="assets/crea_marlene/street_photo2a.jpg" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="assets/crea_marlene/safari_photo1a.jpg" class="img-fluid" alt="Photo">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="assets/crea_marlene/safari_photo3.jpg" class="img-fluid" alt="Photo">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="assets/crea_marlene/street_photography4.JPG" class="img-fluid" alt="Photo">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="assets/crea_marlene/photo_pi6.jpg" class="img-fluid" alt="Photo">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="assets/crea_marlene/street_photography7.JPG" class="img-fluid" alt="Photo">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="assets/crea_marlene/street_photography6a.JPG" class="img-fluid" alt="Photo">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="assets/crea_marlene/photo_pi10a.jpg" class="img-fluid" alt="Photo">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="assets/crea_marlene/street_photography8.JPG" class="img-fluid" alt="Photo">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="assets/crea_marlene/street_photography5.JPG" class="img-fluid" alt="Photo">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="assets/crea_marlene/zoo_art_show6.jpg" class="img-fluid" alt="Photo">
+                        </div>
+                    </div>
+                    <!--modal-->
+
+                    <!--end modal-->
+                </div>
+                <!-- End Title Section -->
+                <style>
+                    .row {
+                        margin-bottom: 25px;
+                    }
+                    /* overlay */
+                    
+                    .modal-body {
+                        position: relative;
+                        height: auto;
+                    }
+                    
+                    .img-fluid {
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    /*animate modal*/
+                    
+                    @-webkit-keyframes tada {
+                        from {
+                            -webkit-transform: scale3d(1, 1, 1);
+                            transform: scale3d(1, 1, 1);
+                        }
+                        10%,
+                        20% {
+                            -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+                            transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+                        }
+                        30%,
+                        50%,
+                        70%,
+                        90% {
+                            -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+                            transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+                        }
+                        40%,
+                        60%,
+                        80% {
+                            -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+                            transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+                        }
+                        to {
+                            -webkit-transform: scale3d(1, 1, 1);
+                            transform: scale3d(1, 1, 1);
+                        }
+                    }
+                    
+                    @keyframes tada {
+                        from {
+                            -webkit-transform: scale3d(1, 1, 1);
+                            transform: scale3d(1, 1, 1);
+                        }
+                        10%,
+                        20% {
+                            -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+                            transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+                        }
+                        30%,
+                        50%,
+                        70%,
+                        90% {
+                            -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+                            transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+                        }
+                        40%,
+                        60%,
+                        80% {
+                            -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+                            transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+                        }
+                        to {
+                            -webkit-transform: scale3d(1, 1, 1);
+                            transform: scale3d(1, 1, 1);
+                        }
+                    }
+                    
+                    .tada {
+                        -webkit-animation-name: tada;
+                        animation-name: tada;
+                    }
+                </style>
+                <!-- ================ fin alignement photo et clic ====================-->
+                <!-- main.css ligne 382-->
+                <style>
+                    .counter-section {
+                        /* background: url(../img/background/bg-1.jpg); */
+                        /*Image by <a href="https://pixabay.com/users/Ben_Kerckx-69781/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1004423">Ben Kerckx</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1004423">Pixabay</a>*/
+                        background: url(../img/background/musee-des-confluances-Ben_Kerckx-Pixabay.jpg);
+                        /* background: url(../img/background/lyon-christian_hardi_pixabay.jpg); */
+                        /*Image by <a href="https://pixabay.com/users/twalmedia-2586533/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2382879">christian hardi</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2382879">Pixabay</a>*/
+                        overflow: hidden;
+                        position: relative;
+                    }
+                </style>
+                <!-- fin main. css -->
+                <!-- index.html -->
+                <!-- Counter Area Start-->
+                <section class="counter-section section-padding">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Counter Item -->
+                            <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+                                <div class="counter wow fadeInDown" data-wow-delay="0.3s">
+                                    <div class="icon"><i class="icon-briefcase"></i></div>
+                                    <div class="counterUp">250</div>
+                                    <p>Project Working</p>
+                                </div>
+                            </div>
+                            <!-- Counter Item -->
+                            <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+                                <div class="counter wow fadeInDown" data-wow-delay="0.6s">
+                                    <div class="icon"><i class="icon-check"></i></div>
+                                    <div class="counterUp">950</div>
+                                    <p>Project Done</p>
+                                </div>
+                            </div>
+                            <!-- Counter Item -->
+                            <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+                                <div class="counter wow fadeInDown" data-wow-delay="0.9s">
+                                    <div class="icon"><i class="icon-diamond"></i></div>
+                                    <div class="counterUp">150</div>
+                                    <p>Awards Received</p>
+                                </div>
+                            </div>
+                            <!-- Counter Item -->
+                            <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+                                <div class="counter wow fadeInDown" data-wow-delay="1.2s">
+                                    <div class="icon"><i class="icon-heart"></i></div>
+                                    <div class="counterUp">299</div>
+                                    <p>Happy Clients</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Counter Area End-->
+                <!-- MAP HOME PAGE -->
+                <div class="col-md-12">
+                    <object style="border:0; height: 450px; width: 100%;" data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34015.943594576835!2d-106.43242624069771!3d31.677719472407432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75d90e99d597b%3A0x6cd3eb9a9fcd23f1!2sCourtyard+by+Marriott+Ciudad+Juarez!5e0!3m2!1sen!2sbd!4v1533791187584"></object>
+                </div>
+                <!-- end MAP-->
+                <!-- Contact Section Start -->
+                <section id="contact" class="section-padding">
+                    <div class="contact-form">
+                        <div class="container">
+                            <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="col-md-6 col-lg-6 col-sm-12">
+                                    <div class="contact-block">
+                                        <h2>Contact Form</h2>
+                                        <form id="contactForm" method="POST">
+                                            <!-- <form id="contactForm"> -->
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your name">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <input type="text" placeholder="Email" id="email" class="form-control" name="email" required data-error="Please enter your email">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="text" placeholder="Subject" id="msg_subject" class="form-control" name="subject" required data-error="Please enter your subject">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <textarea class="form-control" id="message" name="Message" placeholder="Your Message" rows="5" data-error="Write your message" required></textarea>
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                    <div class="submit-button">
+                                                        <button class="btn btn-common" id="submit" type="submit" name="send">Send Message</button>
+                                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                                        <div class="clearfix"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-sm-12">
+                                    <div class="footer-right-area wow fadeIn">
+                                        <h2>Contact Address</h2>
+                                        <div class="footer-right-contact">
+                                            <div class="single-contact">
+                                                <div class="contact-icon">
+                                                    <i class="fa fa-map-marker"></i>
+                                                </div>
+                                                <p>Lyon, FRANCE</p>
+                                            </div>
+                                            <div class="single-contact">
+                                                <div class="contact-icon">
+                                                    <i class="fa fa-envelope"></i>
+                                                </div>
+                                                <!-- <p><a href="mailto:hello@tom.com">hello@tom.com</a></p> -->
+                                                <p><a href="mailto:marlene.egraz@gmail.com">marlene.egraz@gmail.com</a></p>
+                                            </div>
+                                            <!-- <div class="single-contact">
+                                        <div class="contact-icon">
+                                            <i class="fa fa-phone"></i>
+                                        </div>
+                                        <p><a href="#">+ (00) 123 456 789</a></p>
+                                        <p><a href="#">+ (00) 123 344 789</a></p>
+                                    </div> -->
+                                            <!-- <p><a href="#"> +33 6.... </a></p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-md-12">
+                            <object style="border:0; height: 450px; width: 100%;" data="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26482.43470483452!2d4.837289141620224!3d45.75870242266278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1570629739663!5m2!1sfr!2sfr"></object>
+                        </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Contact Section End -->
+
+                <style>
+                    /* media queries ========================================================================= */
+                    /* Small devices (landscape phones, 576px and up) ======================================== */
+                    
+                    @media (min-width: 576px) {
+                        /* .work_item .w_page_text .w_page_text_inner.left {
+        margin-left: auto;
+        position: relative;
+        z-index: 2;
+    } */
+                    }
+                    /* Medium devices (tablets, 768px and up) ================================================ */
+                    
+                    @media (min-width: 768px) {}
+                    /* Large devices (desktops, 992px and up) ================================================ */
+                    
+                    @media (min-width: 992px) {}
+                    /* Extra large devices (large desktops, 1200px and up) =================================== */
+                    
+                    @media (min-width: 1200px) {}
+                </style>
